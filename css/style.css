@@ -317,4 +317,23 @@ form.form-contact .btn{
     text-underline-offset: .4em;
 }
 
+/*error*/
+
+.error{
+    margin: 6em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home-error{
+    color: var(--clr-accent-600);
+}
+
+.ballena{
+    font-size: 5em;
+    color: gray;
+    align-items: center;
+}
+
+
 
