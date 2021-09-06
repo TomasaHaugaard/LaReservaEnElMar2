@@ -1,0 +1,320 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+*img{
+    width: 100%;
+    height: auto;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+h1 {
+	font-size: 2.5em;
+    text-align: center;
+    padding: .5em;   
+} 
+
+h2{
+    padding: .5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p{
+   text-align: center;
+   margin: .5em;
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+/*INDEX MAIN*/
+.img-home{
+    width: 90%;
+    height: 30em;
+    padding: .5em;
+    margin-left: 5%;
+}
+
+.txt-home{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.btn-home{
+    background: var(--clr-bg-light);
+    color: var(--clr-bg-white);
+    font-size: 20px;
+    padding: .5em;
+    margin: .3em;
+    text-align: center;
+    letter-spacing: .1em;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: grab;
+}
+
+.cards-home{
+    border-top: solid;
+    border-color: var(--clr-accent-400);
+    margin: 3em;
+}
+
+
+/*NOSOTROS*/
+
+.all-nos{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: .5em;
+    padding: .5em;
+}
+.img-nos-1{
+    width: 30%;
+    height: auto;
+    margin: .5em;
+}
+
+.img-nos-2{
+    width: 30%;
+    height: auto;
+    margin: .5em;
+}
+
+.img-nos-3{
+    width: 30%;
+    height: auto;
+    margin: .5em;
+}
+
+/*APARTAMENTOS*/
+
+.slideshow-container{
+    max-width: 1000px;
+    position:relative;
+    margin:auto;
+}
+
+.mySlides{
+    display:none;
+}   
+
+
+.numbertext{
+    color:#0a0a0a;
+    font-size:12px;
+    padding:8px 12px;
+    position:absolute;
+    top:0;
+}
+
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name:fade;
+    animation-duration:1.5s;
+}
+   
+@-webkit-keyframes fade{
+from{opacity:.4}
+to{opacity:1}
+}
+
+@keyframes fade{
+from{opacity:.4}
+to{opacity:1}
+}
+
+.txt-apartamentos{
+    background-color: var(--clr-accent-200) ;
+}
+/*ACTIVIDADES*/
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+.card{
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    max-width: 300px;
+    background: var(--clr-bg-white);
+    border-color: bisque;
+    color: var(--clr-txt-light);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+.card .imagen {
+    min-height: 200px;
+    position: relative;
+}
+.texto{
+    text-align: center;
+    padding: 1em 0.9em;
+}
+.texto h3{
+    margin-bottom: 0.3em;
+    color: var(--clr-bg-light);
+    font-size: 1.5em;
+
+}
+.footer-card{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1.4em 1em;
+    background-color: var(--clr-bg-light);
+}
+.imagen{
+    width: 20em;
+    
+}
+
+.boton{
+    border: none;
+    border-radius: 0.1em;
+    padding: 0.7em 1em;
+    margin: 0.5em;
+    gap: 2em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    outline: none;
+    cursor:pointer;
+    background-color: var(--clr-accent-400);
+}
+#botonpri{
+    border: none;
+    border-radius: 0.1em;
+    padding: 0.1em 0.5em;
+    margin: 0.5em;
+    gap: 2em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    outline: none;
+    cursor:pointer;
+    text-decoration: none;
+    color: var(--clr-bg-white);
+    font-size: 1em;
+
+}
+#botonsec{
+    border: none;
+    border-radius: 0.1em;
+    padding: 0.1em 0.5em;
+    margin: 0.5em;
+    gap: 2em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    outline: none;
+    cursor:pointer;
+    text-decoration: none;
+    color: var(--clr-bg-white);
+    font-size: 0.8em;
+}
+
+/*FORMULARIO*/
+input,
+select,
+option,
+textarea{
+    padding: .5em;
+    border: none;
+    background: var(--clr-accent-200);
+    color: var(--clr-txt-light);
+    resize: none;
+    border-radius: .3em;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+
+form.form-contact{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+form.form-contact label{
+    margin-bottom: .3em;
+}
+
+form.form-contact input,
+form.form-contact select,
+form.form-contact textarea {
+    margin-bottom: .55em;
+}
+
+form.form-contact .btn{
+    margin-top: 1em ;
+    padding-top: .7em;
+    padding-bottom: .7em;
+
+}
+
+.btn-contacto{
+    border-radius: .3em;
+    padding: .3em 1em;
+    text-align: center;
+    letter-spacing: .1em;
+    outline: none;
+    border: none;
+    cursor: grab;
+}
+
+.btn-pri{
+    background: var(--clr-bg-light);
+    color: var(--clr-bg-white);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-txt{
+    text-decoration: underline;
+    text-underline-offset: .4em;
+}
+
+

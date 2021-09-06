@@ -1,0 +1,24 @@
+#avistajes{
+    background: url(../asset/avistajes.png)no-repeat center/cover;
+}
+#snorkeling{
+    background: url(../asset/snorkeling.png)no-repeat center/cover;
+}
+#buceo{
+    background: url(../asset/buceo.png)no-repeat center/cover;
+}
+#trekking{
+    background: url(../asset/vuelta.png)no-repeat center/cover;
+}
+#kayak{
+    background: url(../asset/kayak.png)no-repeat center/cover;
+}
+#paseo{
+    background: url(../asset/paseonautico.png)no-repeat center/cover;
+}
+#vuelta{
+    background: url(../asset/vuelta.png)no-repeat center/cover;
+}
+#bike{
+    background: url(../asset/bici.png)no-repeat center/cover;
+}

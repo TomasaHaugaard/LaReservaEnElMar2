@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    width: 100%;
+    background-color: var(--clr-accent-200);
+    color: var(--clr-txt-white);
+
+}
+
+.logo-footer{
+    flex: 0 0 150px;
+    line-height: 80px;
+
+}
+
+.footer-logo{
+    width: 100%;
+    height: auto;
+    margin-right: 5px;
+}
+
+footer a{
+    line-height: 80px;
+    list-style-type: none;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
