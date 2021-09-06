@@ -317,6 +317,10 @@ form.form-contact .btn{
     text-underline-offset: .4em;
 }
 
+.st-c{
+    margin: 1em;
+}
+
 /*error*/
 
 .error{
