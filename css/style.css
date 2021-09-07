@@ -160,7 +160,7 @@ to{opacity:1}
 }
 
 .txt-apartamentos{
-    background-color: var(--clr-accent-200) ;
+   border: solid var(--clr-accent-200);
 }
 /*ACTIVIDADES*/
 
@@ -276,6 +276,7 @@ form.form-contact{
     flex-flow: column nowrap;
     max-width: 450px;
     margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 form.form-contact label{
@@ -318,8 +319,9 @@ form.form-contact .btn{
 }
 
 .st-c{
-    margin: 1em;
+    margin-top: .3em;
 }
+
 
 /*error*/
 

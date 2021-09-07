@@ -10,8 +10,9 @@ footer{
 }
 
 .logo-footer{
+    margin-right: 1em;
     flex: 0 0 150px;
-    line-height: 80px;
+    line-height: 90px;
 
 }
 
@@ -21,10 +22,15 @@ footer{
     margin-right: 5px;
 }
 
+.redes{
+    margin-left: 1em;
+    
+}
+
 footer a{
-    line-height: 80px;
+    line-height: 90px;
+    padding: .5em;
     list-style-type: none;
-    margin: 5px;
     text-decoration: none;
     color: white;
     font-weight: bold;
