@@ -29,7 +29,7 @@ footer{
 
 footer a{
     line-height: 90px;
-    padding: .5em;
+    margin: 5px;
     list-style-type: none;
     text-decoration: none;
     color: white;
